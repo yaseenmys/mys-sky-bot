@@ -6,3 +6,6 @@
 
 ### Step 3: Deploy on Render
 [![DEPLOY TO RENDER](https://img.shields.io/badge/DEPLOY-TO_RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy)
+<p align="center">
+  <img src="./banner.png" width="100%" alt="MYS SKY BOT">
+</p>
