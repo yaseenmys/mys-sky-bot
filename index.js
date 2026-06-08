@@ -247,7 +247,7 @@ async function startBot() {
  if (linkRegex.test(lowerBody)) {
  try {
  await sock.sendMessage(from, { delete: msg.key });
- if (!isAdmin) {
+ if (!isOwner) {
  await sock.groupParticipantsUpdate(
  from,
  [sender],
