@@ -1,27 +1,30 @@
 {
-  "dependencies": {
-    "@bochilteam/scraper": "^5.0.1",
-    "@google/genai": "^2.7.0",
-    "@whiskeysockets/baileys": "^7.0.0-rc13",
-    "axios": "^1.17.0",
-    "child_process": "^1.0.2",
-    "express": "^5.2.1",
-    "fluent-ffmpeg": "^2.1.3",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "pino": "^10.3.1",
-    "qrcode": "^1.5.4",
-    "qrcode-terminal": "^0.12.0"
-  },
-  "name": "whatsapp-bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mys-sky-bot",
+  "version": "4.0.0",
+  "description": "YASEEN-MYS-MD WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "yaseen"
+  ],
+  "author": "YASEEN-MYS",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@google/genai": "^0.1.0",
+    "pino": "^8.17.2",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
+

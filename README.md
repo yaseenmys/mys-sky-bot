@@ -1,47 +1,65 @@
-# MYS SKY BOT 🚀 WhatsApp Group Management Bot | Coded By Yaseen MYS
+# YASEEN-MYS-MD WhatsApp Bot
 
-<p align="center">
-  <img src="https://img.shields.io/badge/WHATSAPP-BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  <img src="https://img.shields.io/badge/NODE-JS-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/BAILEYS-MD-000?style=for-the-badge" />
-</p>
+A powerful WhatsApp bot built with Baileys and Express.js
 
-## 🚀 Steps to Deploy
+## Features
 
-### Step 1: Fork the Repository
-Click the button below to fork this repo to your account:
+- 🤖 AI Commands (GPT, Claude, Gemini, etc.)
+- 🎵 Music Download (JioSaavn API)
+- 🎨 Image Commands (Anime, Waifu, etc.)
+- 😂 Fun Commands (Compatibility, Roast, etc.)
+- 👥 Group Management (Kick, Ban, Antilink, etc.)
+- 🔥 Auto React System
+- 📱 QR Code Scanner
+- 💾 Status Saver
 
-[![FORK REPOSITORY](https://img.shields.io/badge/FORK-REPOSITORY-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yaseenmys/mys-sky-bot/fork)
+## Installation
 
-### Step 2: Deploy on Replit
-Deploy the bot and get Pair Code. Click below:
+```bash
+npm install
+```
 
-[![DEPLOY ON REPLIT](https://img.shields.io/badge/DEPLOY-ON_REPLIT-667ACC?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/github/yaseenmys/mys-sky-bot)
+## Configuration
 
-### Step 3: Deploy on Render
-Deploy for 24/7 free hosting:
+1. Set environment variable:
+   - `GEMINI_API_KEY` - Get from [Google AI Studio](https://aistudio.google.com)
 
-[![DEPLOY TO RENDER](https://img.shields.io/badge/DEPLOY-TO_RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy)
+2. Update bot config in `index.js`:
+   - `OWNER_NAME` - Your name
+   - `OWNER_NUMBER` - Your WhatsApp number (92XXXXXXXXXX format)
+   - `BOT_NAME` - Bot name
+   - `PREFIX` - Command prefix (default: `.`)
 
-## ⚙️ Step 4: Setup Bot
+## Running
 
-1. **Replit me `Run` dabao**
-2. **Console me QR scan karo ya 8 digit Pair Code use karo**
-3. **`index.js` me `OWNER_NUMBER` me apna number dalo:** `92xxxxxxxxxx`
-4. **Bot ko group me admin banao**
-5. **`.menu` likho - Bot ready ✅**
+```bash
+npm start
+```
 
-## ✨ Features
+## Deployment
 
-- **Antilink** - Link bhejne pe auto kick
-- **Ban / Unban / Kick / Promote / Demote** 
-- **Welcome & Goodbye Messages**
-- **Auto Reply + 50+ Commands**
-- **Group Lock / Unlock**
-- **Download TikTok / Insta / YT**
+Deploy on Railway, Render, Cyclic, or any Node.js hosting.
 
-## 👑 Owner
-**Yaseen MYS** | WhatsApp: [Click Here](https://wa.me/92xxxxxxxxxx)
+## Commands
 
----
-<p align="center">⭐ Star this repo if you like it ⭐</p>
+- `.menu` - Show all commands
+- `.alive` - Check bot status
+- `.ping` - Speed test
+- `.owner` - Owner info
+- `.play <song>` - Download song
+- `.sticker` - Convert image to sticker
+- `.save` - Save status
+- `.antilink on/off` - Enable/disable antilink
+- `.welcome on/off` - Enable/disable welcome messages
+- `.tagall` - Tag all members
+- `.gpt35 <question>` - Ask AI
+- And many more...
+
+## License
+
+MIT
+
+## Author
+
+YASEEN-MYS
+
