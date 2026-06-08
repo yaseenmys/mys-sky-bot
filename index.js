@@ -695,7 +695,7 @@ async function startBot() {
  const GEMINI_KEY = process.env.GEMINI_API_KEY;
  if (!GEMINI_KEY) {
  return await sock.sendMessage(from, {
- text: `🤖 *${command.toUpperCase()} AI*\n\n❌ API Key set nahi hai!\n\n📌 Setup:\n1. Railway → Variables\n2. Key: GEMINI_API_KEY\n3. Value: apni Gemini key\n4. Bot restart karo\n\n🔗 Free key: aistudio.google.com\n\n> ${BOT_NAME}`,
+ text: `🤖 *${command.toUpperCase()} AI*\n\n❌ API Key set nahi hai!\n\n📌 Setup:\n1. Replit → Secrets\n2. Key: GEMINI_API_KEY\n3. Value: apni Gemini key\n4. Bot restart karo\n\n🔗 Free key: aistudio.google.com\n\n> ${BOT_NAME}`,
  });
  }
  try {
