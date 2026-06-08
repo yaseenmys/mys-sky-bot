@@ -14,9 +14,9 @@ const PORT = process.env.PORT || 3000;
 let qrCodeImage = '';
 
 // ============== BOT CONFIG - YAHAN NAAM CHANGE KARO ==============
-const OWNER_NAME = "MYS OVERLORD";
+const OWNER_NAME = "👑 ᴏᴡɴᴇʀ: YASEEN MYS-MD";
 const OWNER_NUMBER = "923709928789"; // Apna number 92 ke saath bina + ke
-const BOT_NAME = "MYS OVERLORD X";
+const BOT_NAME = "YASEEN MYS-MD";
 const PREFIX = ".";
 const VERSION = "10.0.0 ULTIMATE";
 // =================================================================
