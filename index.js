@@ -14,7 +14,7 @@ const QRCode = require("qrcode");
 const axios = require("axios");
 const os = require("os");
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 let qrCodeImage = "";
 // ============== BOT CONFIG - YAHAN NAAM CHANGE KARO ==============
 const OWNER_NAME = "👑 ᴏᴡɴᴇʀ: YASEEN-MYS-MD";
